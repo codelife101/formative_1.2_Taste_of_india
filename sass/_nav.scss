@@ -1,0 +1,11 @@
+.navBar{
+	@mixin dimension{
+		width:100%;
+		height: 200px;
+	}
+	background-color: #CC7E85;
+}
+
+.text {
+	text-align: center;
+}
