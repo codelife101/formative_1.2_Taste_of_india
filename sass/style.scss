@@ -8,8 +8,20 @@
 
 
 
-.imgBack{
-	@mixin dimesnsion{
+// .imgBack{
+// 	@mixin dimesnsion{
 		
-	}
+// 	}
+// }
+
+
+body {
+	background-color: #333;
+}
+
+.test{
+	background-color: orange;
+	background-image: url('../images/homeBackground.jpeg');
+	@include dimension(100%,100vh);
+	
 }
