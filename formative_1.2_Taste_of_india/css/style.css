@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none; }
+
+.navBar {
+  width: 100%;
+  height: 100px;
+  background-color: #CC7E85; }
+
+.text {
+  margin-top: 13px;
+  width: 58%;
+  float: left;
+  text-align: center; }
+
+.text p {
+  font-family: sansita;
+  font-size: 20px;
+  color: #F2B880; }
+
+.hamburgerMenu {
+  float: right;
+  width: 20%;
+  height: 100px;
+  margin-right: 1%; }
+
+.hamburgerImg {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; }
+
+.logo {
+  float: left;
+  width: 20%;
+  height: 100px;
+  margin-left: 1%; }
+
+.logoImg {
+  display: block;
+  height: 40px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; }
+
+.testing {
+  background-image: url("../images/homeBackground.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */

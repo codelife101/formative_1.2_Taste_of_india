@@ -1,0 +1,25 @@
+@import 'cssResets';
+@import 'variables';
+@import 'mixin';
+@import 'images';
+@import 'nav';
+@import 'icon';
+@import 'button';
+
+
+
+// .imgBack{
+// 	@mixin dimesnsion{
+		
+// 	}
+// }
+
+
+
+.testing{
+	background-image: url('../images/homeBackground.jpg');
+	background-size: 100% 100%;
+	@include dimension(100%,100vh);
+
+
+}
